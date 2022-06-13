@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Device
-export DT_LINK="https://github.com/mastersenpai0405/recovery_device_infinix_X683"
+export DT_LINK="https://github.com/punkzappa007/android_device_tecno_TECNO-CG8.git -b android-11.0"
 
-export DEVICE="X683"
-export OEM="infinix"
-export TARGET="recoveryimage"
+export DEVICE="CG8"
+export OEM="tecno"
+export TARGET="bootimage"
 
-export OUTPUT="recovery.img"
+export OUTPUT="boot.img"
 
 # Kernel Source
 # Uncomment the next line if you want to clone a kernel source.
