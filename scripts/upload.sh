@@ -1,9 +1,9 @@
-#!/bin/bash
-
 env:
     # Telegram
     TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
     TG_TOKEN: ${{ secrets.TG_TOKEN }}
+    
+#!/bin/bash
 
 # Source Vars
 source $CONFIG
