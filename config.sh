@@ -4,7 +4,7 @@
 export DT_LINK="https://github.com/punkzappa007/android_device_tecno_TECNO-CG8.git -b CG8-SHRP"
 
 export DEVICE="CG8"
-export OEM="TECNO"
+export OEM="tecno"
 export TARGET="bootimage"
 
 export OUTPUT="boot.img"
