@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Device
-export DT_LINK="https://github.com/punkzappa007/android_device_tecno_TECNO-CG8.git -b CG8-SHRP"
+export DT_LINK="https://github.com/punkzappa007/android_device_tecno_CG8-PBRP.git"
 
 export DEVICE="CG8"
-export OEM="tecno"
+export OEM="TECNO"
 export TARGET="bootimage"
 
 export OUTPUT="boot.img"
