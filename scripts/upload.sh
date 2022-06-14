@@ -1,12 +1,17 @@
 #!/bin/bash
 
+env:
+    # Telegram
+    TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+    TG_TOKEN: ${{ secrets.TG_TOKEN }}
+
 # Source Vars
 source $CONFIG
 
 # A Function to Send Posts to Telegram
 telegram_message() {
-	curl -s -X POST "https://api.telegram.org/bot1832296697:AAFDgcqnMkU1MWIFF50RHalLw55De1F-_yw/sendMessage" \
-	-d chat_id="-1001773631393" \
+	curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+	-d chat_id="${TG_CHAT_ID}" \
 	-d parse_mode="HTML" \
 	-d text="$1"
 }
