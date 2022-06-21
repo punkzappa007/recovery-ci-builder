@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Device
-export DT_LINK="https://github.com/punkzappa007/android_device_tecno_TECNO-CG8.git -b CG8-SHRP"
+export DT_LINK="https://gitlab.com/Android-Dumps/tecno/TECNO-CG8/-/tree/sys_tssi_64_tecno-user-11-RP1A.200720.011-108853-release-keys/twrp-device-tree/tecno/TECNO-CG8"
 
-export DEVICE="CG8"
+export DEVICE="TECNO-CG8"
 export OEM="tecno"
 export TARGET="bootimage"
 
