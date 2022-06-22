@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Device
+# Device 
 export DT_LINK="https://github.com/punkzappa007/android_device_tecno_CG8-PBRP.git"
 
 export DEVICE="CG8"
